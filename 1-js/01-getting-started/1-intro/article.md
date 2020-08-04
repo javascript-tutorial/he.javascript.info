@@ -1,12 +1,14 @@
-# An Introduction to JavaScript
+# מבוא לג'אווהסקריפט
+Let's see what's so special about JavaScript, what we can achieve with it, and which other technologies play well with it.\
+בואו נראה מה כל כך מיוחד בג'אווהסקריפט, מה אפשר לעשות עם השפה, ועם אילו טכנולוגיות נוספות מסתדרות היא מסתדרת נהדר.
 
-Let's see what's so special about JavaScript, what we can achieve with it, and which other technologies play well with it.
+## מה זה ג'אווה סקריפט
 
-## What is JavaScript?
+*JavaScript* was initially created to "make web pages alive".\
+*ג'אווהסקריפט* נוצרה במטרה "להחיות" את האינטרנט
 
-*JavaScript* was initially created to "make web pages alive".
-
-The programs in this language are called *scripts*. They can be written right in a web page's HTML and run automatically as the page loads.
+The programs in this language are called *scripts*. They can be written right in a web page's HTML and run automatically as the page loads.\
+קטעי התוכנה בשפה נקראים *סקריפטים*. הם יכולים להיכתב ישירות בHTML ולרוץ מיד כאשר העמוד עולה. 
 
 Scripts are provided and executed as plain text. They don't need special preparation or compilation to run.
 
