@@ -11,6 +11,7 @@ The programs in this language are called *scripts*. They can be written right in
 קטעי התוכנה בשפה נקראים *סקריפטים*. הם יכולים להיכתב ישירות בHTML ולרוץ מיד כאשר העמוד עולה. 
 
 Scripts are provided and executed as plain text. They don't need special preparation or compilation to run.
+סקריפטים מסופקים ומוצאים לפועל כטקסט רגיל. הם לא צריכים הכנות מיוחדות דוגמת קומפילציה כדי לרוץ.
 
 In this aspect, JavaScript is very different from another language called [Java](https://en.wikipedia.org/wiki/Java_(programming_language)).
 
