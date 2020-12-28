@@ -2,7 +2,11 @@
 Let's see what's so special about JavaScript, what we can achieve with it, and which other technologies play well with it.\
 בואו נראה מה כל כך מיוחד בג'אווהסקריפט, מה אפשר לעשות עם השפה, ועם אילו טכנולוגיות נוספות מסתדרות היא מסתדרת נהדר.
 
+<<<<<<< HEAD
 ## מה זה ג'אווה סקריפט
+=======
+Let's see what's so special about JavaScript, what we can achieve with it, and what other technologies play well with it.
+>>>>>>> 13da056653754765b50aa5a9f706f84a4a0d6293
 
 *JavaScript* was initially created to "make web pages alive".\
 *ג'אווהסקריפט* נוצרה במטרה "להחיות" את האינטרנט
@@ -113,12 +117,12 @@ Examples of such languages:
 - [TypeScript](http://www.typescriptlang.org/) is concentrated on adding "strict data typing" to simplify the development and support of complex systems. It is developed by Microsoft.
 - [Flow](http://flow.org/) also adds data typing, but in a different way. Developed by Facebook.
 - [Dart](https://www.dartlang.org/) is a standalone language that has its own engine that runs in non-browser environments (like mobile apps), but also can be transpiled to JavaScript. Developed by Google.
-- [Brython](https://brython.info/) is a Python transpiler to JavaScript that allow to write application in pure Python without JavaScript.
+- [Brython](https://brython.info/) is a Python transpiler to JavaScript that enables the writing of applications in pure Python without JavaScript.
 
 There are more. Of course, even if we use one of transpiled languages, we should also know JavaScript to really understand what we're doing.
 
 ## Summary
 
-- JavaScript was initially created as a browser-only language, but is now used in many other environments as well.
-- Today, JavaScript has a unique position as the most widely-adopted browser language with full integration with HTML/CSS.
+- JavaScript was initially created as a browser-only language, but it is now used in many other environments as well.
+- Today, JavaScript has a unique position as the most widely-adopted browser language with full integration in HTML/CSS.
 - There are many languages that get "transpiled" to JavaScript and provide certain features. It is recommended to take a look at them, at least briefly, after mastering JavaScript.
