@@ -2,7 +2,11 @@
 Let's see what's so special about JavaScript, what we can achieve with it, and which other technologies play well with it.\
 בואו נראה מה כל כך מיוחד בג'אווהסקריפט, מה אפשר לעשות עם השפה, ועם אילו טכנולוגיות נוספות מסתדרות היא מסתדרת נהדר.
 
+<<<<<<< HEAD
 ## מה זה ג'אווה סקריפט
+=======
+Let's see what's so special about JavaScript, what we can achieve with it, and what other technologies play well with it.
+>>>>>>> 30a5d5e2a7c3504c9afd5028f83f4a696e60aede
 
 *JavaScript* was initially created to "make web pages alive".\
 *ג'אווהסקריפט* נוצרה במטרה "להחיות" את האינטרנט
@@ -27,11 +31,11 @@ The browser has an embedded engine sometimes called a "JavaScript virtual machin
 
 Different engines have different "codenames". For example:
 
-- [V8](https://en.wikipedia.org/wiki/V8_(JavaScript_engine)) -- in Chrome and Opera.
+- [V8](https://en.wikipedia.org/wiki/V8_(JavaScript_engine)) -- in Chrome, Opera and Edge.
 - [SpiderMonkey](https://en.wikipedia.org/wiki/SpiderMonkey) -- in Firefox.
-- ...There are other codenames like "Chakra" for IE, "ChakraCore" for Microsoft Edge, "Nitro" and "SquirrelFish" for Safari, etc.
+- ...There are other codenames like "Chakra" for IE, "JavaScriptCore", "Nitro" and "SquirrelFish" for Safari, etc.
 
-The terms above are good to remember because they are used in developer articles on the internet. We'll use them too. For instance, if "a feature X is supported by V8", then it probably works in Chrome and Opera.
+The terms above are good to remember because they are used in developer articles on the internet. We'll use them too. For instance, if "a feature X is supported by V8", then it probably works in Chrome, Opera and Edge.
 
 ```smart header="How do engines work?"
 
@@ -62,7 +66,7 @@ For instance, in-browser JavaScript is able to:
 
 ## What CAN'T in-browser JavaScript do?
 
-JavaScript's abilities in the browser are limited for the sake of the user's safety. The aim is to prevent an evil webpage from accessing private information or harming the user's data.
+JavaScript's abilities in the browser are limited for the sake of a user's safety. The aim is to prevent an evil webpage from accessing private information or harming the user's data.
 
 Examples of such restrictions include:
 
@@ -89,7 +93,7 @@ There are at least *three* great things about JavaScript:
 ```compare
 + Full integration with HTML/CSS.
 + Simple things are done simply.
-+ Support by all major browsers and enabled by default.
++ Supported by all major browsers and enabled by default.
 ```
 JavaScript is the only browser technology that combines these three things.
 
@@ -109,16 +113,17 @@ Modern tools make the transpilation very fast and transparent, actually allowing
 
 Examples of such languages:
 
-- [CoffeeScript](http://coffeescript.org/) is a "syntactic sugar" for JavaScript. It introduces shorter syntax, allowing us to write clearer and more precise code. Usually, Ruby devs like it.
-- [TypeScript](http://www.typescriptlang.org/) is concentrated on adding "strict data typing" to simplify the development and support of complex systems. It is developed by Microsoft.
-- [Flow](http://flow.org/) also adds data typing, but in a different way. Developed by Facebook.
+- [CoffeeScript](https://coffeescript.org/) is a "syntactic sugar" for JavaScript. It introduces shorter syntax, allowing us to write clearer and more precise code. Usually, Ruby devs like it.
+- [TypeScript](https://www.typescriptlang.org/) is concentrated on adding "strict data typing" to simplify the development and support of complex systems. It is developed by Microsoft.
+- [Flow](https://flow.org/) also adds data typing, but in a different way. Developed by Facebook.
 - [Dart](https://www.dartlang.org/) is a standalone language that has its own engine that runs in non-browser environments (like mobile apps), but also can be transpiled to JavaScript. Developed by Google.
-- [Brython](https://brython.info/) is a Python transpiler to JavaScript that allow to write application in pure Python without JavaScript.
+- [Brython](https://brython.info/) is a Python transpiler to JavaScript that enables the writing of applications in pure Python without JavaScript.
+- [Kotlin](https://kotlinlang.org/docs/reference/js-overview.html) is a modern, concise and safe programming language that can target the browser or Node.
 
 There are more. Of course, even if we use one of transpiled languages, we should also know JavaScript to really understand what we're doing.
 
 ## Summary
 
-- JavaScript was initially created as a browser-only language, but is now used in many other environments as well.
-- Today, JavaScript has a unique position as the most widely-adopted browser language with full integration with HTML/CSS.
+- JavaScript was initially created as a browser-only language, but it is now used in many other environments as well.
+- Today, JavaScript has a unique position as the most widely-adopted browser language, fully integrated with HTML/CSS.
 - There are many languages that get "transpiled" to JavaScript and provide certain features. It is recommended to take a look at them, at least briefly, after mastering JavaScript.
