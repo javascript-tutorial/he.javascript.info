@@ -21,6 +21,7 @@ If maintainers do not respond, or if you'd like to become a maintainer, write us
 
 🎉 Thank you!
 
+<<<<<<< HEAD
 Your name and the contribution size will appear in the "About project" page when the translation gets published.
 
 P.S. The full list of languages can be found at <https://javascript.info/translate>.
@@ -99,10 +100,29 @@ const text = 'Hola mundo';
 // DO NOT TRANSLATE
 document.querySelector('.hola').innerHTML = text;
 ```
+=======
+Something's wrong? A topic is missing? Explain it to people, add it as PR 👏
+
+**You can edit the text in any editor.** The tutorial uses an enhanced "markdown" format, easy to grasp. And if you want to see how it looks on-site, there's a server to run the tutorial locally at <https://github.com/javascript-tutorial/server>.
+
+The list of contributors is available at <https://javascript.info/about#contributors>.
+
+## Structure
+
+Every chapter, article, or task has its folder.
+
+The folder is named like `N-url`, where `N` is a number for the sorting purposes and `URL` is the URL part with the title of the material.
+>>>>>>> 1ce5644a15ee141fbe78c0fb79c8f40d870d7043
 
 Please note, that sometimes code is followed by pictures, and if you translate text `Hello` -> `Hola` in the code, you need to translate text in picturess as well.
 
+<<<<<<< HEAD
 In that case it's probably easier not to translate such text. See more about translating images later.
+=======
+  - `index.md` stands for a chapter
+  - `article.md` stands for an article
+  - `task.md` stands for a task (solution must be provided in `solution.md` file as well)
+>>>>>>> 1ce5644a15ee141fbe78c0fb79c8f40d870d7043
 
 
 ### External Links
@@ -132,6 +152,7 @@ Some files, usually tasks, have YAML metadata at the top, delimited by `---`:
 ```md
 importance: 5
 
+<<<<<<< HEAD
 ---
 ...
 ```
@@ -168,3 +189,8 @@ image.svg:        # image file
 You can run the tutorial server locally to see how the translation looks.
 
 The server and install instructions are at <https://github.com/javascript-tutorial/server>. 
+=======
+---  
+♥  
+Ilya Kantor @iliakan
+>>>>>>> 1ce5644a15ee141fbe78c0fb79c8f40d870d7043
